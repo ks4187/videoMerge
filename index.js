@@ -13,6 +13,12 @@ const videoExtension = '.mp4';
 
 var words = inputString.split(' ');
 var outputFileName = inputString.split(' ').join('');
+
+/**
+ * TODO: Check if the file already exists in the database. If it exists, serve that file else create a new file for the output.
+ */
+
+
 var mergeVideo = ffmpeg();
 
 words.forEach(word => {

@@ -1,1 +1,3 @@
 # WORD VIDEO MERGE APPLICATION
+
+TODO: Migrate project to AWS
